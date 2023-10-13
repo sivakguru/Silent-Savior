@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fire-alarm-detection"
+version = "0.1.0"
+description = ""
+authors = ["sivakumar kumaraguru"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.24.3"
+opencv-python = "4.8.0.76"
+sounddevice = "0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
