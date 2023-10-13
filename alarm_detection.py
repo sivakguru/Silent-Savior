@@ -8,9 +8,9 @@ sample_rate = 44100
 duration = 20
 threshold = 0.1  # Adjust this threshold as needed
 
-file_location = '/workshop/scripts/fire_alarm_detection/fire_alram_media/sign_language.mp4'
+file_location = 'fire_alram_media/sign_language.mp4'
 # Define the URL of the video you want to play
-video_url = os.path.expanduser(f'~/Documents/{file_location}')
+video_url = os.path.expanduser(f'{file_location}')
 
 # Create a flag to indicate whether the alarm has been triggered
 alarm_triggered = False
