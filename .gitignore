@@ -1,10 +1,10 @@
-
 secrets.yaml
 .venv
 *.db
 *.log
 *.txt
 .vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
